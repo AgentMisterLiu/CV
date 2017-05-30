@@ -1,0 +1,171 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\par{\centering {\Large \textbf{CURRICULUM VITAE}} \par}
+\par{\centering{\Large \textbf {Zhenning Liu}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+Place and Date of Birth: & China  | 05 February 1998 \\
+Address: & Hatfield College, North Bailey, Durham, DH1 3RQ \\
+Phone: & +44 7754289943\\
+E-mail: & \href{mailto:zhenning.liu@durham.ac.uk}{zhenning.liu@durham.ac.uk}
+\end{tabular}
+
+
+\section{Education}
+
+\begin{tabular}{rl}	
+2016-present & Bsc in Physics, \textbf{Durham University}, UK\\
+& Collection Exam 2017 :\\
+& Physics 104/120, Calculus 88/100, Linear Algebra 99/100, Analysis I 92/100\\
+&\\
+
+%------------------------------------------------
+
+2015-2016 & \textsc{}A-Level in \normalsize\textbf{Pennon Education}, China\\
+&\\
+
+%------------------------------------------------
+2013-2016 & Senior High School in \textbf{Shandong Experimental High School}, China\\
+& Average Mark: \\
+& Math 91/100, Physics 96/100, Chinese 86/100 \\
+&\\
+
+%------------------------------------------------
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Certificates}
+
+\begin{tabular}{rl}
+
+\textsc{June} 2016 & {A-Level} : Physics A* 575/600, 
+ Math A* 579/600,     Further Math A* 567/600  \\
+ 
+  \textsc{September} 2015 & {Chinese Physics Olympaid in Provinces} : Third Prize \\
+  
+ \textsc{November} 2014 & {National Olympaid of Informatics in Provinces} : First Prize \\
+& \\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\begin{tabular}{r p{9cm}}
+Chinese & Mother tongue\\
+English & CEFR Level B2\\
+& \\
+\end{tabular}
+
+\section{Academic Knowlege}
+\begin{tabular}{r p{9cm}}
+
+Physics: & Level 1 University Physics, Stars and Stellar evolution, Basic cosmology and galaxy knowledge\\
+Mathematics: & Calculus, Linear Algebra, Analysis, Combinatorics, Probability \\
+Algorithm: & Basic Numerical Algorithms, Graph Theory, Dynamic Programming, Search, Automatons, Basic Computational Algebra, etc\\
+Data Structure: & Queues, Stack, Segement Tree, Balanced Trees, Merge–find Set, etc\\
+
+
+General Idea: & Functional Programming, Machine Learning\\
+
+Currently Self-studying: & Astrophysics, Electrodynamics \\
+&\\
+\end{tabular}
+
+
+\section{Programming Languages}
+
+\begin{tabular}{rl}
+Level of scientific computing: & Python\\ 
+
+Level of Algorithm Competition: & C++, Pascal\\
+
+Intermediate Knowledge: & C, PHP, XML, HTML\\
+
+Basic Knowledge: & Haskell, SQL, Javascript, Visual Basic, MATLAB\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+\section{Other Computer Skills}
+\begin{tabular}{rl}
+
+System Tools: & Linux, Shell, Basic Web Server\\
+
+Electronic Writing: &  {\fb \LaTeX}\\
+
+Data Analysis: & Excel with Simple VBA
+\end{tabular}
+
+\section{Interests and Activities}
+
+Building Robots, Web Development, Online Programming Contest\\
+Astronomical Observation\\
+Ship Model, Photography, Animation Review\\
+Ball Games, Cycling
+
+%----------------------------------------------------------------------------------------
+ 
+\end{document}
